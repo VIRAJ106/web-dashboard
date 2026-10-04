@@ -47,7 +47,7 @@ const DownloadPage = () => {
 
       <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'flex-start' }}>
         <a 
-          href="https://github.com/VIRAJ106/LaserPAT/releases/download/v1.0.0/LaserPAT.exe"
+          href="https://github.com/VIRAJ106/LaserPAT/releases/latest/download/LaserPAT.exe"
           target="_blank"
           rel="noopener noreferrer"
           style={{
