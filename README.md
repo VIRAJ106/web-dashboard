@@ -1,16 +1,80 @@
-# React + Vite
+# LaserPAT Web Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Live Dashboard:** [https://web-dashboard-woad-two.vercel.app/](https://web-dashboard-woad-two.vercel.app/)
 
-Currently, two official plugins are available:
+A real-time monitoring and control dashboard for the LaserPAT AI-Based Virtual Camera Tracking System (ISRO SIH 2026 PS 26169).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Real-time Metrics:** Live tracking accuracy, detection rate, processing FPS
+- **GitHub Integration:** Automatic sync with latest LaserPAT releases
+- **System Status:** Health monitoring and performance analytics
+- **Configuration Management:** Remote parameter tuning
+- **Visualization:** Interactive charts and telemetry displays
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌐 Deployment
+
+**Production:** https://web-dashboard-woad-two.vercel.app/
+
+Deployed on Vercel with automatic GitHub integration.
+
+---
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+```bash
+npm install
+```
+
+### Run Development Server
+```bash
+npm run dev
+```
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+---
+
+## 📦 Tech Stack
+
+- **React 18** — UI framework
+- **Vite** — Build tool and dev server
+- **Zustand** — State management
+- **D3.js** — Data visualization
+- **Vercel** — Hosting and deployment
+
+---
+
+## 🔗 Links
+
+- **Dashboard:** https://web-dashboard-woad-two.vercel.app/
+- **LaserPAT Repository:** https://github.com/VIRAJ106/LaserPAT
+- **Competition:** ISRO SIH 2026 PS 26169
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+**Last Updated:** October 5, 2026  
+**Version:** 1.0.0
